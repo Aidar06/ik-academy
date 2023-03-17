@@ -1,0 +1,24 @@
+@import "./components/Header/headerStyle";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 1200px;
+}
+
+@media (max-width: 1640px) {
+  .container{
+    width: 90%;
+  }
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  font-family: sans-serif;
+}
