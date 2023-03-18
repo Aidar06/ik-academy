@@ -1,4 +1,9 @@
 @import "./components/Header/headerStyle";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans:wght@100;200;300&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 *{
   margin: 0;
@@ -20,5 +25,5 @@ a{
 }
 
 body{
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
