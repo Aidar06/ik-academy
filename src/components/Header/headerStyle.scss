@@ -1,0 +1,64 @@
+#header{
+  width: 100%;
+  padding: 30px 0;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(5px);
+  z-index: 99;
+  border-bottom: 1px solid white;
+  .header{
+    display: flex;
+    justify-content: space-between;
+    &--nav{
+      display: flex;
+      align-items: center;
+      &__logo{
+        display: flex;
+        align-items: center;
+        div{
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          border: 1px solid white;
+          background: red;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img{
+            width: 80%;
+          }
+        }
+        p{
+          color: white;
+          margin-left: 10px;
+          font-size: 22px;
+        }
+      }
+      &__navbar{
+        margin-left: 70px;
+        a{
+          color: white;
+          margin:  0 20px;
+          font-size: 22px;
+        }
+      }
+    }
+
+    &--btn{
+      button{
+        padding: 6px 20px;
+        color: white;
+        background: red;
+        border: 2px solid red;
+        font-weight: 500;
+        border-radius: 10px;
+        transition: .4s;
+        letter-spacing: 1px;
+        &:hover{
+          background: transparent;
+          color: red;
+        }
+      }
+    }
+  }
+}
