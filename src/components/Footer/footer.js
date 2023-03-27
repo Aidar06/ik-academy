@@ -1,9 +1,10 @@
 import React from 'react';
+import './footerStyle.scss'
 
 const Footer = () => {
     return (
 
-        <footer id="footer bg-white dark:bg-gray-900">
+        <footer id="footer bg-black dark:bg-black">
             <div className="mx-auto w-full container p-4 sm:p-6">
                 <div className="footer md:flex md:justify-between">
                     <div className="footer--img mb-6 md:mb-0">

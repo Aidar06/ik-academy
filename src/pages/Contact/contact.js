@@ -1,6 +1,6 @@
 import React from 'react';
 
-const BusinessZero = () => {
+const Contact = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const BusinessZero = () => {
     );
 };
 
-export default BusinessZero;
+export default Contact;
