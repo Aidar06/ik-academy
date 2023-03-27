@@ -2,6 +2,7 @@ import React from 'react';
 import {NavLink} from "react-router-dom";
 import logo from '../../assets/img/1679724229102.png'
 
+
 const Header = () => {
     return (
         <header id='header'>
@@ -12,15 +13,12 @@ const Header = () => {
                             <div>
                                 <img src={logo} alt=""/>
                             </div>
-                            <p>
-                                IK Academy
-                            </p>
+                            <p>IK Academy</p>
                         </div>
                         <div className='header--nav__navbar'>
-                            <NavLink to={'/'}>home</NavLink>
-                            <NavLink to={'/'}>about</NavLink>
-                            <NavLink to={'/'}>lorem</NavLink>
-                            <NavLink to={'/'}>contact</NavLink>
+                            <NavLink to={'/'}>Home</NavLink>
+                            <NavLink to={'/about'}>About</NavLink>
+                            <NavLink to={'/contact'}>Contact</NavLink>
                         </div>
                     </nav>
                     <div className='header--btn'>
