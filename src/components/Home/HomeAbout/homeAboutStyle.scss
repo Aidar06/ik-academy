@@ -1,0 +1,227 @@
+#homeAbout{
+  padding: 120px 0;
+  background: rgb(0, 0, 0);
+  .homeAbout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &--title{
+      width: 49%;
+      h1{
+        color: white;
+        font-weight: 600;
+        font-size: 40px;
+        font-family: sans-serif;
+      }
+      p{
+        color: white;
+        font-family: sans-serif;
+        font-size: 22px;
+        margin-top: 30px;
+      }
+    }
+
+    &--group{
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      &__block{
+        width: 100%;
+        height: 70px;
+        margin: 20px 0;
+        display: flex;
+        align-items: center;
+        h3{
+          color: white;
+          font-size: 22px;
+          span{
+            font-size: 60px;
+            color: red;
+            font-weight: 600;
+            padding-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1340px) {
+    #homeAbout{
+      .homeAbout{
+        &--title{
+          h1{
+
+          }
+          p{
+            width: 80%;
+          }
+        }
+
+        &--group{
+          width: 40%;
+        }
+      }
+    }
+  }
+
+@media (max-width: 1264px) {
+  #homeAbout{
+    .homeAbout{
+      &--title{
+        h1{
+
+        }
+        p{
+
+        }
+      }
+
+      &--group{
+        span{
+          font-size: 50px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #homeAbout{
+    .homeAbout{
+      &--title{
+        h1{
+          font-size: 33px;
+        }
+        p{
+
+        }
+      }
+
+      &--group{
+        width: 45%;
+        &__block{
+          h3{
+            font-size: 20px;
+            span{
+              font-size: 50px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 830px) {
+  #homeAbout{
+    .homeAbout{
+      flex-direction: column;
+      align-items: start;
+      &--title{
+        width: 100%;
+        h1{
+          font-size: 38px;
+        }
+        p{
+          width: 100%;
+        }
+      }
+
+      &--group{
+        width: 100%;
+        margin-top: 30px;
+        &__block{
+          margin: 10px 0;
+          h3{
+            font-size: 24px;
+            span{
+              font-size: 55px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 450px) {
+  #homeAbout{
+    padding: 80px 0;
+  }
+}
+
+@media (max-width: 420px) {
+  #homeAbout{
+    .homeAbout{
+      &--title{
+        h1{
+          font-size: 33px;
+        }
+      }
+
+      &--group{
+        &__block{
+          h3{
+            font-size: 20px;
+            span{
+              font-size: 50px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  #homeAbout{
+    .homeAbout{
+      &--title{
+        h1{
+          font-size: 30px;
+        }
+      }
+
+      &--group{
+        &__block{
+          h3{
+            font-size: 18px;
+            span{
+              font-size: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 330px) {
+  #homeAbout{
+    .homeAbout{
+      &--title{
+        h1{
+          font-size: 26px;
+        }
+        p{
+          font-size: 24px;
+        }
+      }
+
+      &--group{
+        &__block{
+          h3{
+            font-size: 18px;
+            span{
+              font-size: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
