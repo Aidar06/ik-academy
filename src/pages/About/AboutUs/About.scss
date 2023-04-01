@@ -1,0 +1,45 @@
+#about {
+  background: rgba(0, 0, 0, 0.99);
+  backdrop-filter: blur(2px);
+  padding: 10% 0;
+
+  h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #e00b0b;
+    letter-spacing: 2px;
+  }
+
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+      width: 50%;
+      padding: 0 30px;
+    }
+
+    &--text {
+      h4 {
+        font-weight: 600;
+        font-size: 30px;
+        color: white;
+        //padding: 10px 0;
+        letter-spacing: 2px;
+        text-align: center;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 25px;
+        color: white;
+        //text-align: center;
+        padding: 10px 0;
+      }
+    }
+  }
+}
+
+
