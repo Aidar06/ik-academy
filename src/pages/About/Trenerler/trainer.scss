@@ -1,0 +1,160 @@
+#trainer {
+  background: rgba(0, 0, 0, 0.99);
+  backdrop-filter: blur(2px);
+
+  .trainer {
+    h1 {
+      font-weight: 700;
+      font-size: 40px;
+      color: #e00b0b;
+      letter-spacing: 4px;
+
+    }
+
+    &--line {
+      width: 20%;
+      background: #ffffff;
+      height: 4px;
+    }
+
+    &--line2 {
+      width: 10%;
+      background: #d71212;
+      height: 5px;
+      margin: 5px 0;
+    }
+
+    &--man {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5% 0;
+
+      &__one {
+        h3 {
+          padding: 10px 0;
+          font-weight: 650;
+          font-size: 30px;
+          color: #f31010;
+        }
+
+        li {
+          font-weight: 400;
+          font-size: 20px;
+          color: white;
+        }
+
+        img {
+          object-fit: contain;
+          width: 75%;
+        }
+      }
+
+      &__two {
+        img {
+          object-fit: cover;
+          width: 80%;
+
+        }
+
+        h3 {
+          padding: 10px 0;
+          font-weight: 650;
+          font-size: 30px;
+          color: #fd1111;
+        }
+
+        li {
+          font-weight: 400;
+          font-size: 20px;
+          color: white;
+        }
+      }
+
+      &__three {
+        img {
+          object-fit: cover;
+          width: 80%;
+        }
+
+        h3 {
+          padding: 10px 0;
+          font-weight: 650;
+          font-size: 30px;
+          color: #e10f0f;
+        }
+
+        li {
+          font-weight: 400;
+          font-size: 20px;
+          color: white;
+        }
+      }
+    }
+
+    &--woman {
+      display: flex;
+
+      &__one {
+        h3 {
+          padding: 10px 0;
+          font-weight: 650;
+          font-size: 30px;
+          color: #f51111;
+        }
+
+        li {
+          font-weight: 400;
+          font-size: 20px;
+          color: white;
+        }
+
+        img {
+          object-fit: cover;
+          width: 75%;
+        }
+      }
+
+      &__two {
+        img {
+          object-fit: cover;
+          width: 80%;
+        }
+
+        h3 {
+          padding: 10px 0;
+          font-weight: 650;
+          font-size: 30px;
+          color: #ef1010;
+        }
+
+        li {
+          font-weight: 400;
+          font-size: 20px;
+          color: white;
+        }
+      }
+
+      &__three {
+        img {
+          object-fit: cover;
+          width: 70%;
+          padding-left: 30px;
+        }
+
+        h3 {
+          padding: 10px 0;
+          font-weight: 650;
+          font-size: 30px;
+          color: #ea1111;
+        }
+
+        li {
+          font-weight: 400;
+          font-size: 20px;
+          color: white;
+        }
+      }
+    }
+  }
+}
