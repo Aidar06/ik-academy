@@ -6,55 +6,93 @@ import temirlan from './../../../assets/img/temirlan.jpg'
 import alya from './../../../assets/img/aliya.jpeg'
 import baktygul from './../../../assets/img/baktygul.jpg'
 import raushan from './../../../assets/img/raushan.jpg'
+import { useState, useEffect, useRef } from 'react';
 
 const Trainers = () => {
+    const [isVisible, setIsVisible] = useState(false);
+    const ref = useRef(null);
+
+    const handleScroll = () => {
+        const rect = ref.current.getBoundingClientRect();
+        if (rect.top + 200 < window.innerHeight){
+            setIsVisible(true)
+        }else {
+            setIsVisible(false)
+        }
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
         <section id="trainer">
             <div className="container">
                 <div className="trainer">
-                    <h1>Биздин Тренерлер</h1>
-                    <div className="trainer--line"></div>
-                    <div className="trainer--line2"></div>
+                    <h1 ref={ref}>Биздин Тренерлер</h1>
+                    <div style={{width: isVisible? '' : '0px'}} className="trainer--line"></div>
+                    <div style={{width: isVisible? '' : '0px'}} className="trainer--line2"></div>
 
-                    <div className="trainer--man">
-                        <div className="trainer--man__one">
-                            <img src={myktybek} alt="img"/>
+                    <div className='trainer--group'>
+                        <div className="trainer--group__block">
+                          <div className='trainer--group__block--img'>
+                              <img src={myktybek} alt="img"/>
+                              <div></div>
+                          </div>
                             <h3>МЫКТЫБЕК АРСТАНБЕК</h3>
                             <li>КООМДУК ИШМЕР</li>
                             <li>ӨНҮГҮҮ ТРЕНЕРИ</li>
                             <li>ЖУРНАЛИСТ</li>
                         </div>
 
-                        <div className="trainer--man__two">
-                            <img src={askar} alt="img"/>
+                        <div className="trainer--group__block">
+                            <div className='trainer--group__block--img'>
+                                <img src={askar} alt="img"/>
+                                <div></div>
+                            </div>
                             <h3>АКЖОЛТОЙ АСКАР</h3>
                             <li>"СҮРДҮ ЖЕҢҮҮ" ТРЕНИНГИНИН ТРЕНЕРИ</li>
                             <li>БЛОГЕР</li>
                         </div>
-                        <div className="trainer--man__three">
-                            <img src={temirlan} alt="img"/>
+
+                        <div className="trainer--group__block">
+                            <div className='trainer--group__block--img'>
+                                <img src={temirlan} alt="img"/>
+                                <div></div>
+                            </div>
                             <h3>ТЕМИРЛАН БОРОНБАЙ</h3>
                             <li>ТРЕНЕР</li>
                             <li>ТАРГЕТОЛОГ</li>
                         </div>
-                    </div>
 
-                    <div className="trainer--woman">
-                        <div className="trainer--woman__one">
-                            <img src={alya} alt="img"/>
+                        <div className="trainer--group__block">
+                            <div className='trainer--group__block--img'>
+                                <img src={alya} alt="img"/>
+                                <div></div>
+                            </div>
                             <h3>АЛИЯ ТУРГАНБЕКОВА</h3>
                             <li>ТРЕНЕР</li>
                             <li>МАРКЕТОЛОГ</li>
                         </div>
 
-                        <div className="trainer--woman__two">
-                            <img src={baktygul} alt="img"/>
+                        <div className="trainer--group__block">
+                            <div className='trainer--group__block--img'>
+                                <img src={baktygul} alt="img"/>
+                                <div></div>
+                            </div>
                             <h3>БАКТЫГҮЛ ЖОРОЕВА</h3>
                             <li>ТРЕНЕР</li>
                             <li>ТАРГЕТОЛОГ</li>
                         </div>
-                        <div className="trainer--woman__three">
-                            <img src={raushan} alt="img"/>
+
+                        <div className="trainer--group__block">
+                            <div className='trainer--group__block--img'>
+                                <img src={raushan} alt="img"/>
+                                <div></div>
+                            </div>
                             <h3>РАУШАНА МУРАТАЛИЕВА</h3>
                             <li>ТРЕНЕР</li>
                         </div>
