@@ -6,7 +6,6 @@ import business from './../../../assets/img/zerobusiness.jpg'
 const About = () => {
     return (
         <section id="about">
-            <div className="container">
                 <h1>Ишкердик Академиясы</h1>
                 <div className="about">
                    <div className="about--text">
@@ -19,7 +18,6 @@ const About = () => {
                    </div>
                     <img src={business} alt="img"/>
                 </div>
-            </div>
         </section>
     );
 };

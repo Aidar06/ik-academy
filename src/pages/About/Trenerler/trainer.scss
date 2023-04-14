@@ -1,160 +1,130 @@
 #trainer {
-  background: rgba(0, 0, 0, 0.99);
+  background:black;
   backdrop-filter: blur(2px);
 
   .trainer {
     h1 {
       font-weight: 700;
-      font-size: 40px;
+      font-size: 35px;
       color: #e00b0b;
       letter-spacing: 4px;
 
     }
 
     &--line {
-      width: 20%;
+      width: 240px;
       background: #ffffff;
       height: 4px;
+      transition: .6s;
     }
 
     &--line2 {
-      width: 10%;
+      width: 140px;
       background: #d71212;
       height: 5px;
       margin: 5px 0;
+      transition: .7s;
     }
 
-    &--man {
+    &--group{
+      margin-top: 30px;
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 5% 0;
+      justify-content: space-around;
+      align-items: start;
+      flex-wrap: wrap;
+      &__block{
+        width: 25%;
+        margin: 30px 20px;
+          &--img{
+            width: 100%;
+            position: relative;
+            img{
+              border-radius: 10px 10px 0 0;
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
+            div{
+              position: absolute;
+              top: 0;
+              width: 100%;
+              height: 100%;
+              color: white;
+              background: linear-gradient(rgba(0, 0, 0, 0.15), rgb(3, 2, 2));
+            }
+          }
+          h3 {
+            padding: 10px 0;
+            font-weight: 650;
+            font-size: 25px;
+            color: #f51111;
+            margin-top: 10px;
+          }
 
-      &__one {
-        h3 {
-          padding: 10px 0;
-          font-weight: 650;
-          font-size: 30px;
-          color: #f31010;
-        }
-
-        li {
-          font-weight: 400;
-          font-size: 20px;
-          color: white;
-        }
-
-        img {
-          object-fit: contain;
-          width: 75%;
-        }
-      }
-
-      &__two {
-        img {
-          object-fit: cover;
-          width: 80%;
-
-        }
-
-        h3 {
-          padding: 10px 0;
-          font-weight: 650;
-          font-size: 30px;
-          color: #fd1111;
-        }
-
-        li {
-          font-weight: 400;
-          font-size: 20px;
-          color: white;
-        }
-      }
-
-      &__three {
-        img {
-          object-fit: cover;
-          width: 80%;
-        }
-
-        h3 {
-          padding: 10px 0;
-          font-weight: 650;
-          font-size: 30px;
-          color: #e10f0f;
-        }
-
-        li {
-          font-weight: 400;
-          font-size: 20px;
-          color: white;
-        }
+          li {
+            font-weight: 400;
+            font-size: 18px;
+            color: white;
+          }
       }
     }
+  }
+}
 
-    &--woman {
-      display: flex;
 
-      &__one {
-        h3 {
-          padding: 10px 0;
-          font-weight: 650;
-          font-size: 30px;
-          color: #f51111;
-        }
+@media (max-width: 1024px) {
+  #trainer {
+    .trainer {
+      &--group{
+        &__block{
+          width: 40%;
+          h3 {
+            font-size: 22px;
+          }
 
-        li {
-          font-weight: 400;
-          font-size: 20px;
-          color: white;
-        }
-
-        img {
-          object-fit: cover;
-          width: 75%;
-        }
-      }
-
-      &__two {
-        img {
-          object-fit: cover;
-          width: 80%;
-        }
-
-        h3 {
-          padding: 10px 0;
-          font-weight: 650;
-          font-size: 30px;
-          color: #ef1010;
-        }
-
-        li {
-          font-weight: 400;
-          font-size: 20px;
-          color: white;
-        }
-      }
-
-      &__three {
-        img {
-          object-fit: cover;
-          width: 70%;
-          padding-left: 30px;
-        }
-
-        h3 {
-          padding: 10px 0;
-          font-weight: 650;
-          font-size: 30px;
-          color: #ea1111;
-        }
-
-        li {
-          font-weight: 400;
-          font-size: 20px;
-          color: white;
+          li {
+            font-size: 16px;
+          }
         }
       }
     }
   }
+}
+
+@media (max-width: 520px) {
+  #trainer {
+    .trainer {
+      h1{
+        font-size: 30px;
+      }
+      &--group{
+        &__block{
+          width: 90%;
+          h3 {
+            font-size: 22px;
+          }
+
+          li {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+
+}
+
+@media (max-width: 400px) {
+
+}
+
+@media (max-width: 375px) {
+
+}
+
+@media (max-width: 320px) {
+
 }
