@@ -1,8 +1,8 @@
-#homeLessons{
-  padding: 120px 0;
+#homeStudent{
+  padding: 40px 0;
   width: 100%;
   background: black;
-  .homeLessons{
+  .homeStudent{
     h1{
       color: white;
       font-size: 35px;
@@ -49,12 +49,33 @@
       color: white;
       font-size: 40px;
     }
+    &--btn{
+      display: flex;
+      justify-content: center;
+      margin-top: 60px;
+      button{
+        width: 230px;
+        padding: 7px 0;
+        color: white;
+        font-size: 20px;
+        background: red;
+        border: 2px solid red;
+        font-weight: 500;
+        border-radius: 10px;
+        transition: .4s;
+        letter-spacing: 1px;
+        &:hover{
+          background: transparent;
+          color: white;
+        }
+      }
+    }
   }
 }
 
 @media (max-width: 1224px) {
-  #homeLessons{
-    .homeLessons{
+  #homeStudent{
+    .homeStudent{
       &--group{
         &__video{
           iframe{
@@ -68,8 +89,8 @@
 }
 
 @media (max-width: 1024px) {
-  #homeLessons{
-    .homeLessons{
+  #homeStudent{
+    .homeStudent{
       &--group{
         justify-content: space-between;
         &__video{
@@ -84,8 +105,8 @@
 }
 
 @media (max-width: 794px) {
-  #homeLessons{
-    .homeLessons{
+  #homeStudent{
+    .homeStudent{
       &--group{
         &__video{
           iframe{
@@ -99,9 +120,9 @@
 }
 
 @media (max-width: 776px) {
-  #homeLessons{
+  #homeStudent{
     padding: 20px 0 80px 0;
-    .homeLessons{
+    .homeStudent{
       &--group{
         &__video{
           iframe{
@@ -115,8 +136,8 @@
 }
 
 @media (max-width: 690px) {
-  #homeLessons{
-    .homeLessons{
+  #homeStudent{
+    .homeStudent{
       h1{
         font-size: 30px;
       }
@@ -133,8 +154,8 @@
 }
 
 @media (max-width: 635px) {
-  #homeLessons{
-    .homeLessons{
+  #homeStudent{
+    .homeStudent{
       h1{
         font-size: 28px;
       }
@@ -153,8 +174,8 @@
 
 
 @media (max-width: 555px) {
-  #homeLessons{
-    .homeLessons{
+  #homeStudent{
+    .homeStudent{
       h1{
         font-size: 28px;
       }
@@ -172,8 +193,8 @@
 }
 
 @media (max-width: 510px) {
-  #homeLessons{
-    .homeLessons{
+  #homeStudent{
+    .homeStudent{
       h1{
         font-size: 28px;
       }
@@ -191,8 +212,8 @@
 }
 
 @media (max-width: 490px) {
-  #homeLessons{
-    .homeLessons{
+  #homeStudent{
+    .homeStudent{
       h1{
         font-size: 28px;
       }
@@ -211,8 +232,8 @@
 }
 
 @media (max-width: 451px) {
-  #homeLessons{
-    .homeLessons{
+  #homeStudent{
+    .homeStudent{
       h1{
         font-size: 26px;
       }
@@ -231,8 +252,8 @@
 }
 
 @media (max-width: 400px) {
-  #homeLessons{
-    .homeLessons{
+  #homeStudent{
+    .homeStudent{
       h1{
         font-size: 20px;
       }
@@ -249,8 +270,8 @@
 }
 
 @media (max-width: 360px) {
-  #homeLessons{
-    .homeLessons{
+  #homeStudent{
+    .homeStudent{
       h1{
         font-size: 20px;
       }
@@ -267,8 +288,8 @@
 }
 
 @media (max-width: 320px) {
-  #homeLessons{
-    .homeLessons{
+  #homeStudent{
+    .homeStudent{
       h1{
         font-size: 20px;
       }
