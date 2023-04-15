@@ -31,6 +31,46 @@
           transition: .5s;
         }
       }
+      &__a{
+        animation: .6s a alternate;
+        @keyframes a {
+          0%{
+            transform: translateX(-1200px);
+          }
+        }
+      }
+      &__a1{
+        animation: .8s a alternate;
+        @keyframes a {
+          0%{
+            transform: translateX(-1200px);
+          }
+        }
+      }
+      &__a2{
+        animation: 1s a alternate;
+        @keyframes a {
+          0%{
+            transform: translateX(-1200px);
+          }
+        }
+      }
+      &__a3{
+        animation: 1.2s a alternate;
+        @keyframes a {
+          0%{
+            transform: translateX(-1200px);
+          }
+        }
+      }
+      &__a4{
+        animation: 1.4s a alternate;
+        @keyframes a {
+          0%{
+            transform: translateX(-1200px);
+          }
+        }
+      }
     }
 
     &--info{
