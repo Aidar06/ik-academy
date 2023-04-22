@@ -6,11 +6,11 @@ import business from './../../../assets/img/zerobusiness.jpg'
 const About = () => {
     return (
         <section id="about">
-                <h1>Ишкердик Академиясы</h1>
+                <h1> <pre>Ишкердик Академиясы</pre></h1>
                 <div className="about">
                    <div className="about--text">
-                       <h4>Академия Тууралуу</h4>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi atque cupiditate dicta,
+                       <h4> <pre>Академия Тууралуу</pre></h4>
+                       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi atque cupiditate dicta,
                            enim illo incidunt laboriosam magnam minima necessitatibus, nulla officia reiciendis soluta,
                            tenetur vero! Adipisci architecto cum earum eveniet illum iure maxime minima officia possimus
                            praesentium. At consequatur dicta eius impedit iusto magni praesentium quas quo, quod totam.
