@@ -32,7 +32,7 @@ const Trainers = () => {
         <section id="trainer">
             <div className="container">
                 <div className="trainer">
-                    <h1 ref={ref}>Биздин Тренерлер</h1>
+                    <h1 ref={ref}> <pre>Биздин Тренерлер</pre> </h1>
                     <div style={{width: isVisible? '' : '0px'}} className="trainer--line"></div>
                     <div style={{width: isVisible? '' : '0px'}} className="trainer--line2"></div>
 

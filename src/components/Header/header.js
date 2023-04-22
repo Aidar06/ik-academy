@@ -14,7 +14,7 @@ const Header = ({setBurger,burger}) => {
                             <div>
                                 <img src={logo} alt=""/>
                             </div>
-                            <p>IK Academy</p>
+                            <p> <pre>IK Academy</pre> </p>
                         </div>
                         <div className='header--nav__navbar'>
                             <NavLink to={'/'}>Башкы барак</NavLink>
@@ -22,7 +22,7 @@ const Header = ({setBurger,burger}) => {
                         </div>
                     </nav>
                     <div className='header--btn'>
-                        <button>катталуу</button>
+                        <button>Катталуу</button>
                         <div className='header--btn__menu'>
                             <div style={{transform: burger? 'rotate(360deg)': ''}} onClick={()=> setBurger(!burger)} className='header--btn__menu--icon'>
                                 <AiOutlineClose style={{display: burger? '':'none'}}/>
