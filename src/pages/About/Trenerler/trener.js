@@ -32,7 +32,7 @@ const Trainers = () => {
         <section id="trainer">
             <div className="container">
                 <div className="trainer">
-                    <h1 ref={ref}> <pre>Биздин Тренерлер</pre> </h1>
+                    <h1 ref={ref}><pre>Биздин Тренерлер</pre></h1>
                     <div style={{width: isVisible? '' : '0px'}} className="trainer--line"></div>
                     <div style={{width: isVisible? '' : '0px'}} className="trainer--line2"></div>
 
@@ -42,7 +42,7 @@ const Trainers = () => {
                               <img src={myktybek} alt="img"/>
                               <div></div>
                           </div>
-                            <h3>МЫКТЫБЕК АРСТАНБЕК</h3>
+                            <h3><pre>МЫКТЫБЕК АРСТАНБЕК</pre></h3>
                             <li>КООМДУК ИШМЕР</li>
                             <li>ӨНҮГҮҮ ТРЕНЕРИ</li>
                             <li>ЖУРНАЛИСТ</li>
@@ -53,7 +53,7 @@ const Trainers = () => {
                                 <img src={askar} alt="img"/>
                                 <div></div>
                             </div>
-                            <h3>АКЖОЛТОЙ АСКАР</h3>
+                            <h3><pre>АКЖОЛТОЙ АСКАР</pre></h3>
                             <li>"СҮРДҮ ЖЕҢҮҮ" ТРЕНИНГИНИН ТРЕНЕРИ</li>
                             <li>БЛОГЕР</li>
                         </div>
@@ -63,7 +63,7 @@ const Trainers = () => {
                                 <img src={temirlan} alt="img"/>
                                 <div></div>
                             </div>
-                            <h3>ТЕМИРЛАН БОРОНБАЙ</h3>
+                            <h3><pre>ТЕМИРЛАН БОРОНБАЙ</pre></h3>
                             <li>ТРЕНЕР</li>
                             <li>ТАРГЕТОЛОГ</li>
                         </div>
@@ -73,7 +73,7 @@ const Trainers = () => {
                                 <img src={alya} alt="img"/>
                                 <div></div>
                             </div>
-                            <h3>АЛИЯ ТУРГАНБЕКОВА</h3>
+                            <h3><pre>АЛИЯ ТУРГАНБЕКОВА</pre></h3>
                             <li>ТРЕНЕР</li>
                             <li>МАРКЕТОЛОГ</li>
                         </div>
@@ -83,7 +83,7 @@ const Trainers = () => {
                                 <img src={baktygul} alt="img"/>
                                 <div></div>
                             </div>
-                            <h3>БАКТЫГҮЛ ЖОРОЕВА</h3>
+                            <h3><pre>БАКТЫГҮЛ ЖОРОЕВА</pre></h3>
                             <li>ТРЕНЕР</li>
                             <li>ТАРГЕТОЛОГ</li>
                         </div>
@@ -93,11 +93,10 @@ const Trainers = () => {
                                 <img src={raushan} alt="img"/>
                                 <div></div>
                             </div>
-                            <h3>РАУШАНА МУРАТАЛИЕВА</h3>
+                            <h3><pre>РАУШАНА МУРАТАЛИЕВА</pre></h3>
                             <li>ТРЕНЕР</li>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>

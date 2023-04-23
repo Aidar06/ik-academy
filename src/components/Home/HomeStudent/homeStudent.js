@@ -31,7 +31,9 @@ const HomeStudent = () => {
         <section id='homeStudent'>
             <div className="container">
                 <div className="homeStudent">
-                    <h1>"БИЗНЕС НӨЛДӨН"<br/> ТРЕНИНГИНИН БҮТҮРҮҮЧҮЛӨРҮ</h1>
+                    <h1><pre> "БИЗНЕС НӨЛДӨН" <br/>
+                        ТРЕНИНГИНИН БҮТҮРҮҮЧҮЛӨРҮ</pre>
+                    </h1>
                     <div className='homeStudent--group'>
                         {
                             videos.slice(0, arrow? videos.length : 2).map(el => (
@@ -51,7 +53,9 @@ const HomeStudent = () => {
                         }} onClick={()=> setArrow(!arrow)}/>
                     </div>
                     <div className='homeStudent--btn'>
-                        <button onClick={()=> link()}>кененирээк</button>
+                        <button onClick={()=> link()}>
+                            <pre>Кененирээк</pre>
+                        </button>
                     </div>
                 </div>
             </div>

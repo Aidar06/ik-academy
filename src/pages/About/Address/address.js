@@ -23,12 +23,12 @@ const Address = () => {
         <section id="address">
             <div className="container">
                 <div className="address">
-                    <h1 ref={ref}>Биздин Дарек</h1>
+                    <h1 ref={ref}><pre>Биздин Дарек</pre></h1>
                     <div style={{width: isVisibleAddress? '' : '0px'}} className="address--line"></div>
                     <div style={{width: isVisibleAddress? '' : '0px'}} className="address--lineTwo"></div>
                     <div className="address--block">
                         <div className="address--block__text">
-                            <h3>Бишкек Шаары</h3>
+                            <h3><pre>Бишкек Шаары</pre></h3>
                             <li>Maximum бизнес центр</li>
                             <li>Турусбеков 109/2</li>
                         </div>
