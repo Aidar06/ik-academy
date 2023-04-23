@@ -64,6 +64,9 @@
 
 @media (max-width: 576px) {
   #about {
+    h1{
+      font-size: 34px;
+    }
     .about {
       img {
         width: 95%;
@@ -80,6 +83,9 @@
 
 @media (max-width: 375px) {
   #about {
+    h1{
+      font-size: 30px;
+    }
     .about {
 
       &--text {
