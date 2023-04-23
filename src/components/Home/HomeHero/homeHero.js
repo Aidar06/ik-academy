@@ -16,8 +16,8 @@ const HomeHero = () => {
                     </div>
                     <div className='homeHero--block'></div>
                     <div className="homeHero--info">
-                       <h1>БИЗНЕСКЕ БОЛГОН <br/> КАДАМДАР</h1>
-                        <button>Катталуу Учун</button>
+                       <h1><pre>БИЗНЕСКЕ БОЛГОН <br/> КАДАМДАР</pre></h1>
+                        <button><pre>Катталуу Учун</pre></button>
                     </div>
                 </div>
         </section>

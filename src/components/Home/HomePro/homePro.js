@@ -8,7 +8,7 @@ const HomePro = () => {
         <section id='homePro'>
             <div className="container">
                 <div className="homePro">
-                    <h1>ТРЕНИНГДИН ПРОГРАММАСЫ</h1>
+                    <h1> <pre>ТРЕНИНГДИН ПРОГРАММАСЫ</pre></h1>
                     <div className="homePro--group">
                         <div className="homePro--group__block">
                             <div className="homePro--group__block--icon">
@@ -16,9 +16,9 @@ const HomePro = () => {
                             </div>
 
                             <div className="homePro--group__block--info">
-                                <h2>6</h2>
+                                <h2><pre>6 күн</pre></h2>
                                 <div></div>
-                                <h4>ТРЕНЕР</h4>
+                                <h4><pre>ТРЕНЕР</pre></h4>
                             </div>
                         </div>
                         <div className="homePro--group__block">
@@ -27,9 +27,9 @@ const HomePro = () => {
                             </div>
 
                             <div className="homePro--group__block--info">
-                                <h2>45 КҮН</h2>
+                                <h2><pre>45 күн</pre></h2>
                                 <div></div>
-                                <h4>5 КҮН САБАК, 1 КҮН ЭФИР</h4>
+                                <h4><pre>5 КҮН САБАК, 1 КҮН ЭФИР</pre></h4>
                             </div>
                         </div>
                         <div className="homePro--group__block">
@@ -38,9 +38,9 @@ const HomePro = () => {
                             </div>
 
                             <div className="homePro--group__block--info">
-                                <h2>3</h2>
+                                <h2><pre>3 күн</pre></h2>
                                 <div></div>
-                                <h4>КВЕСТ (САБАК) КҮНҮНӨ</h4>
+                                <h4><pre>КВЕСТ (САБАК) КҮНҮНӨ</pre></h4>
                             </div>
                         </div>
                     </div>

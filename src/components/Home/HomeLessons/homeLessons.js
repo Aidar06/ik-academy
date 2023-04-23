@@ -45,7 +45,7 @@ const HomeLessons = () => {
         <section id='homeLessons'>
             <div className="container">
                 <div className="homeLessons">
-                    <h1>БУЛ ВИДЕОЛОРДУ СӨЗСҮЗ КӨРҮҢҮЗ!</h1>
+                    <h1><pre>БУЛ ВИДЕОЛОРДУ СӨЗСҮЗ КӨРҮҢҮЗ!</pre></h1>
                     <div className='homeLessons--group'>
                         {
                             videos.slice(0, arrow? videos.length : 2).map(el => (

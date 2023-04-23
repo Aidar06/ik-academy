@@ -9,7 +9,7 @@
     &--title{
       width: 49%;
       h1{
-        color: white;
+        color: red;
         font-weight: 600;
         font-size: 40px;
         font-family: sans-serif;
@@ -19,6 +19,10 @@
         font-family: sans-serif;
         font-size: 22px;
         margin-top: 30px;
+        span{
+          color: red;
+          font-weight: 600;
+        }
       }
     }
 

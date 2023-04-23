@@ -12,21 +12,21 @@ const HomeAbout = () => {
         const rect = ref.current.getBoundingClientRect();
         const rect1 = ref1.current.getBoundingClientRect();
         const rect2 = ref2.current.getBoundingClientRect();
-        if (rect.top + 80 < window.innerHeight){
+        if (rect.top + 80 < window.innerHeight) {
             setIsVisible(true)
-        }else {
+        } else {
             setIsVisible(false)
         }
 
-        if (rect1.top + 80 < window.innerHeight){
+        if (rect1.top + 80 < window.innerHeight) {
             setIsVisible1(true)
-        }else {
+        } else {
             setIsVisible1(false)
         }
 
-        if (rect2.top + 80 < window.innerHeight){
+        if (rect2.top + 80 < window.innerHeight) {
             setIsVisible2(true)
-        }else {
+        } else {
             setIsVisible2(false)
         }
     };
@@ -43,20 +43,32 @@ const HomeAbout = () => {
             <div className="container">
                 <div className="homeAbout">
                     <div className="homeAbout--title">
-                        <h1>ТРЕНИНГ ТУУРАЛУУ</h1>
+                        <h1>
+                            <pre>ТРЕНИНГ ТУУРАЛУУ</pre>
+                        </h1>
 
-                        <p>БИЗНЕС НӨЛДӨН онлайн тренинги 2019-жылы СТАРТ алган</p>
+                        <p>
+                            <pre>"БИЗНЕС НӨЛДӨН" онлайн тренинги
+                            <span> 2019-жылы СТАРТ АЛГАН</span>
+                           </pre>
+                        </p>
                     </div>
 
                     <div className='homeAbout--group'>
                         <div className='homeAbout--group__block'>
-                            <h3 ref={ref} style={{transform: isVisible? '' : 'translateX(700px)'}}><span>30</span> группа окуп бүтүрдү</h3>
+                            <h3 ref={ref} style={{transform: isVisible ? '' : 'translateX(700px)'}}>
+                               <pre><span>30</span> Группа окуп бүтүрдү</pre>
+                            </h3>
                         </div>
                         <div className='homeAbout--group__block'>
-                            <h3 ref={ref1} style={{transform: isVisible1? '' : 'translateX(700px)'}}><span>15 000</span> ашык студент</h3>
+                            <h3 ref={ref1} style={{transform: isVisible1 ? '' : 'translateX(700px)'}}>
+                                <pre><span>15 000</span> Ашык студент</pre>
+                            </h3>
                         </div>
                         <div className='homeAbout--group__block'>
-                            <h3 ref={ref2} style={{transform: isVisible2? '' : 'translateX(700px)'}}><span>50%</span> өз бизнесин башташты</h3>
+                            <h3 ref={ref2} style={{transform: isVisible2 ? '' : 'translateX(700px)'}}>
+                               <pre><span>50%</span> Өз бизнесин башташты</pre>
+                            </h3>
                         </div>
                     </div>
                 </div>

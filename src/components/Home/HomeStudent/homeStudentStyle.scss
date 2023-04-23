@@ -4,10 +4,24 @@
   background: black;
   .homeStudent{
     h1{
-      color: white;
+      color: #fc0707;
       font-size: 35px;
       text-align: center;
       font-family: sans-serif;
+    }
+    &--line {
+      width: 240px;
+      background: #ffffff;
+      height: 3px;
+      transition: .6s;
+    }
+
+    &--lineTwo {
+      width: 140px;
+      background: #d71212;
+      height: 4px;
+      margin: 5px 0;
+      transition: .7s;
     }
     &--group{
       margin-top: 60px;
