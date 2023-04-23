@@ -14,6 +14,7 @@ const Header = ({setBurger,burger}) => {
                             <div>
                                 <img src={logo} alt=""/>
                             </div>
+
                             <p><pre>IK Academy</pre></p>
                         </div>
                         <div className='header--nav__navbar'>

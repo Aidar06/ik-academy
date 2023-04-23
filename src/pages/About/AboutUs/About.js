@@ -16,6 +16,14 @@ const About = () => {
                            nihil numquam praesentium quae quas quibusdam reprehenderit sequi <br/>
                            sint sit temporibus totam veniam!
                        </pre>
+                <h1> <pre>Ишкердик Академиясы</pre></h1>
+                <div className="about">
+                   <div className="about--text">
+                       <h4> <pre>Академия Тууралуу</pre></h4>
+                       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi atque cupiditate dicta,
+                           enim illo incidunt laboriosam magnam minima necessitatibus, nulla officia reiciendis soluta,
+                           tenetur vero! Adipisci architecto cum earum eveniet illum iure maxime minima officia possimus
+                           praesentium. At consequatur dicta eius impedit iusto magni praesentium quas quo, quod totam.
                        </p>
                    </div>
                     <img src={business} alt="img"/>

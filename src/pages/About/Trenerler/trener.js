@@ -97,7 +97,6 @@ const Trainers = () => {
                             <li>ТРЕНЕР</li>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
