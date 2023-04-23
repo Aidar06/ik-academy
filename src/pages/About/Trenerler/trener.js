@@ -32,7 +32,7 @@ const Trainers = () => {
         <section id="trainer">
             <div className="container">
                 <div className="trainer">
-                    <h1 ref={ref}><pre>Биздин Тренерлер</pre></h1>
+                    <h1 ref={ref}>Биздин Тренерлер</h1>
                     <div style={{width: isVisible? '' : '0px'}} className="trainer--line"></div>
                     <div style={{width: isVisible? '' : '0px'}} className="trainer--line2"></div>
 
@@ -42,7 +42,7 @@ const Trainers = () => {
                               <img src={myktybek} alt="img"/>
                               <div></div>
                           </div>
-                            <h3><pre>МЫКТЫБЕК АРСТАНБЕК</pre></h3>
+                            <h3>МЫКТЫБЕК АРСТАНБЕК</h3>
                             <li>КООМДУК ИШМЕР</li>
                             <li>ӨНҮГҮҮ ТРЕНЕРИ</li>
                             <li>ЖУРНАЛИСТ</li>
